@@ -1,10 +1,12 @@
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-# Φόρτωση raw data
-file_path = "../data/raw/superstore.csv"
+# Φόρτωση καθαρισμένου dataset
+file_path  = r"data\cleaned\superstore_cleaned.csv"
 df = pd.read_csv(file_path)
 
-# Αφαίρεση διπλοτύπων
-df = df.drop_duplicates()
-
-print("Duplicates removed. Shape now:", df.shape)
+# Ρίξε μια πρώτη ματιά
+print(df.head())
+print(df.describe())
+print(df.info())
