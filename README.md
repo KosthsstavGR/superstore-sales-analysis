@@ -34,6 +34,19 @@ Previewed first rows with df.head().
 
 Identified anomalies such as negative profits or extreme values.
 
+## Visual Analysis
+
+### Total Sales by Category
+![Sales by Category](charts/sales_by_category.png)
+
+### Total Profit by Category
+![Profit by Category](charts/profit_by_category.png)
+
+### Top 10 States by Sales
+![Top States](charts/top_states.png)
+
+### Sales by Customer Segment
+![Sales by Segment](charts/segment_sales.png)
 # Skills & Tools Used
 
 Python & Pandas – Data loading, cleaning, and exploration
