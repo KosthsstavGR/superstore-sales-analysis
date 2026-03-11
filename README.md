@@ -1,6 +1,11 @@
 # superstore-sales-analysis
 End-to-end Data Analysis project using Python, SQL, Excel and Power BI
 
+
+## Project Overview
+This project performs an end-to-end analysis of a Superstore dataset to extract business insights,
+KPIs, and visualize trends using Python, SQL, Excel, and Power BI.
+
 # Data Loading
 
 The dataset was loaded using Pandas.
@@ -34,19 +39,46 @@ Previewed first rows with df.head().
 
 Identified anomalies such as negative profits or extreme values.
 
+Observations:
+- Technology category generates the highest profit, while Furniture has the highest sales but lower profitability.
+- The top 3 states by sales are Texas, California, and New York.
+- Consumer segment drives the majority of sales.
+
 ## Visual Analysis
 
 ### Total Sales by Category
 ![Sales by Category](charts/sales_by_category.png)
+Observation: Furniture dominates sales, followed by Technology and Office Supplies.
 
 ### Total Profit by Category
 ![Profit by Category](charts/profit_by_category.png)
+Observation: Technology is the most profitable category.
 
 ### Top 10 States by Sales
 ![Top States](charts/top_states.png)
+Observation: Technology is the most profitable category.
 
 ### Sales by Customer Segment
 ![Sales by Segment](charts/segment_sales.png)
+Observation: Consumer segment contributes the highest sales.
+
+# SQL Analysis
+
+Created SQL scripts to calculate key business metrics (KPIs) such as total sales, total profit, and sales by segment or category.
+
+Examples of queries used are in file:  sql/analysis_queries.sql.
+
+# Power BI Dashboard
+
+Interactive dashboard created to visualize KPIs and sales trends.
+
+Includes slicers for Category, State, and Segment.
+
+Highlights total sales, total profit, top products, and delivery performance.
+
+File: powerbi/superstore_sales_dashboard.pbix
+
+
 # Skills & Tools Used
 
 Python & Pandas – Data loading, cleaning, and exploration
