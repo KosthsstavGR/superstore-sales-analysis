@@ -1,4 +1,4 @@
-### Superstore-sales-analysis
+# Superstore-sales-analysis
 End-to-end Data Analysis project using Python, SQL, Excel and Power BI
 
 
@@ -6,7 +6,7 @@ End-to-end Data Analysis project using Python, SQL, Excel and Power BI
 This project performs an end-to-end analysis of a Superstore dataset to extract business insights,
 KPIs, and visualize trends using Python, SQL, Excel, and Power BI.
 
-# Data Loading
+## Data Loading
 
 The dataset was loaded using Pandas.
 During the import process, it was necessary to specify the correct column separator.
@@ -16,7 +16,7 @@ Without specifying the separator, Pandas would interpret the entire row as a sin
 
 This ensures that the dataset is properly structured into columns.
 
-# Data Cleaning
+## Data Cleaning
 
 
 Checked for missing values in columns such as Sales, Quantity, Profit, and Discount.
@@ -27,7 +27,7 @@ Created a new column Delivery Days to calculate shipping duration.
 
 Saved the cleaned dataset for further analysis:
 
-# Data Exploration
+## Data Exploration
 
 Initial exploration performed:
 
@@ -49,30 +49,30 @@ Observations:
 ### Total Sales by Category
 ![Sales by Category](charts/sales_by_category.png)
 
-Observation: Furniture dominates sales, followed by Technology and Office Supplies.
+#### Observation: Furniture dominates sales, followed by Technology and Office Supplies.
 
 ### Total Profit by Category
 ![Profit by Category](charts/profit_by_category.png)
 
-Observation: Technology is the most profitable category.
+#### Observation: Technology is the most profitable category.
 
 ### Top 10 States by Sales
 ![Top States](charts/top_states.png)
 
-Observation: Technology is the most profitable category.
+#### Observation: Technology is the most profitable category.
 
 ### Sales by Customer Segment
 ![Sales by Segment](charts/segment_sales.png)
 
-Observation: Consumer segment contributes the highest sales.
+#### Observation: Consumer segment contributes the highest sales.
 
-# SQL Analysis
+## SQL Analysis
 
 Created SQL scripts to calculate key business metrics (KPIs) such as total sales, total profit, and sales by segment or category.
 
 Examples of queries used are in file:  sql/analysis_queries.sql.
 
-# Power BI Dashboard
+## Power BI Dashboard
 
 Interactive dashboard created to visualize KPIs and sales trends.
 
@@ -83,7 +83,7 @@ Highlights total sales, total profit, top products, and delivery performance.
 File: powerbi/superstore_sales_dashboard.pbix
 
 
-# Skills & Tools Used
+## Skills & Tools Used
 
 Python & Pandas – Data loading, cleaning, and exploration
 
