@@ -76,6 +76,9 @@ Examples of queries used are in file:  sql/analysis_queries.sql.
 
 Interactive dashboard created to visualize KPIs and sales trends.
 
+## Power BI Dashboard
+![Power BI Dashboard](images/powerbi_dashboard.png)
+
 Includes slicers for Category, State, and Segment.
 
 Highlights total sales, total profit, top products, and delivery performance.
