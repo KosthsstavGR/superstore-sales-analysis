@@ -52,7 +52,7 @@ Observations:
 #### Observation: Furniture dominates sales, followed by Technology and Office Supplies.
 
 ### Total Profit by Category
-![Profit by Category](charts/profit_by_category.png)
+![Profit by Category](images/charts/profit_by_category.png)
 
 #### Observation: Technology is the most profitable category.
 
