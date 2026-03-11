@@ -48,18 +48,22 @@ Observations:
 
 ### Total Sales by Category
 ![Sales by Category](charts/sales_by_category.png)
+
 Observation: Furniture dominates sales, followed by Technology and Office Supplies.
 
 ### Total Profit by Category
 ![Profit by Category](charts/profit_by_category.png)
+
 Observation: Technology is the most profitable category.
 
 ### Top 10 States by Sales
 ![Top States](charts/top_states.png)
+
 Observation: Technology is the most profitable category.
 
 ### Sales by Customer Segment
 ![Sales by Segment](charts/segment_sales.png)
+
 Observation: Consumer segment contributes the highest sales.
 
 # SQL Analysis
